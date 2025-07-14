@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# 12213016_Afford_Medical - URL Shortener App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive **URL Shortener Web Application** built using **React.js** and **Material UI**. This application allows users to shorten long URLs, optionally add custom shortcodes, and set expiration times. It is built for academic/evaluation purposes and works fully on the frontend using `localStorage`.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔗 Shorten valid URLs
+- ✏️ Custom shortcode (optional)
+- ⏱ Expiration time in minutes
+- 📋 Display of shortened URLs with expiry info
+- 💾 Data stored in browser using `localStorage`
+- 🎨 Responsive and styled using Material UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+- **Frontend:** React.js
+- **Styling:** Material UI + Custom CSS
+- **Routing:** React Router DOM
+- **Storage:** localStorage (No backend)
+- **State Management:** React Hooks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+📦 12213016_afford_medical/
+├── public/
+├── src/
+│   ├── pages/
+│   │   ├── RedirectHandler.jsx
+│   │   ├── ShortenerPage.jsx
+│   │   └── StatisticsPage.jsx
+│   ├── App.js
+│   ├── App.css
+│   ├── RouteLogger.jsx
+│   ├── index.js
+│   ├── index.css
+│   └── logo.svg
+├── .gitignore
+├── README.md
+├── auth.js
+├── logger.js
+├── package.json
+├── package-lock.json
+├── register.js
+├── server.js       # Unused - not required in frontend-only setup
+├── testlogger.js
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> ⚠️ `server.js` and `testlogger.js` are present but not used in the current frontend-only version.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ▶️ How to Run the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/Babulkumar07/12213016_afford_medical.git
+cd 12213016_afford_medical
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Step 2: Install dependencies
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Step 3: Start the development server
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🌐 Visit the app at: **http://localhost:3000**
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👨‍💻 Developer Info
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Name:** Babul Kumar  
+- **Enrollment Number:** 12213016  
+- **Course:** B.Tech CSE  
+- **GitHub:** [https://github.com/Babulkumar07](https://github.com/Babulkumar07)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is created for academic and evaluation purposes only.
